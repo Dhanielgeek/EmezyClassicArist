@@ -43,31 +43,31 @@ EMEZY
 
  <section className="w-[100%] h-[90vh]  flex items-center justify-center " style={{backgroundColor:'beige'}} >
 
- <div className="w-[40%] h-[80%] flex flex-col items-center justify-around gap-5 border border-solid border[grey]" >
+ <div className="w-[40%] h-[80%] flex flex-col items-center justify-around gap-5 border border-solid border[grey] max-md:w-[80%]" >
 
-    <div className="w-[100%] h-[10%] flex justify-start items-center" >
-       <h1 className="font-bold text-2xl text-[grey]">Sign in to your existing account</h1>
+    <div className="w-[100%] h-[10%] flex justify-start items-center px-2 " >
+       <h1 className="font-bold text-2xl text-[grey] max-md:text-lg">Sign in to your existing account</h1>
     </div>
 
     <div className="w-[100%] h-[40%] flex justify-between items-center flex-col" >
 
-      <div className="w-[100%] h-[42%] flex flex-col justify-center items-start gap-2" >
-        <label > Email</label>
+      <div className="w-[100%] h-[42%] flex flex-col justify-center items-start px-2  gap-2" >
+        <label className="font-semibold text-md " > Email</label>
         <input type="text"
-        required  placeholder="email" className="w-[100%] h-[68%] border-2" style={{borderColor:"lightgray"}}/>
+        required  placeholder="email" className="w-[100%] h-[68%] px-2 bg-transparent rounded-lg border-2"/>
       </div>
 
-      <div className="w-[100%] h-[42%] flex flex-col justify-center items-start gap-2" >
-        <label > Password</label>
+      <div className="w-[100%] h-[42%] flex flex-col justify-center items-start px-2 gap-2 " >
+        <label className="font-semibold text-md" > Password</label>
         <input type="text"  required
-         placeholder="password" className="w-[100%] h-[68%] border-2" style={{borderColor:"lightgray"}}/>
+         placeholder="password" className="w-[100%] h-[68%] px-2 rounded-lg bg-transparent border-2 "/>
       </div>
     </div>
 
     <section className="w-[100%] h-[5%]" > <h3>forgot password?</h3></section>
 
     <div className="w-[100%] h-[10%] flex justify-center  items-center">
-      <button className="w-[20%] h-[80%] bg-[grey] hover:text-white  hover:bg-[#4c4949] cursor-pointer">
+      <button className="w-[60%] h-[80%] bg-[grey] rounded-md font-semibold text-[#FDFDF7] hover:text-white  hover:bg-[#4c4949] cursor-pointer">
         SIGNIN
       </button>
     </div>

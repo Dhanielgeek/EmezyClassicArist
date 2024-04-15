@@ -2,11 +2,11 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import WelcomePage from '../assets/ep.jpg';
 import styled from 'styled-components';
-import Love from '../assets/love1.png';
+import Love from '../assets/love2.png'
 
 const Heading = styled.h3`
   font-family: "Dancing Script", cursive;
-  color: #F0F812;
+  color: #ED6203;
 
   @media screen and (max-width: 365px){
     font-size: 10px;
@@ -44,14 +44,14 @@ const Welcome: React.FC = () => {
             <Heading>OUT NOW</Heading>
             </section>
             <section className='w-[100%] h-[25%] flex justify-around items-center flex-col max-sm:hidden'>
-              <div className='w-[90%] h-[40%] border border-solid border-[#F0F812] flex justify-center items-center text-[#F0F812] font-bold cursor-pointer hover:bg-[#F0F812] hover:text-black max-sm:h-[40%]'>LISTEN</div>
-              <div className='w-[90%] h-[40%]  border border-solid border-[#F0F812] flex justify-center items-center text-[#F0F812] font-bold cursor-pointer hover:bg-[#F0F812] hover:text-black max-sm:h-[40%]'>WATCH</div>
+              <div className='w-[90%] h-[40%] border border-solid border-[#ED6203] flex justify-center items-center text-[#ED6203] font-bold cursor-pointer hover:bg-[#ED6203] hover:text-black max-sm:h-[40%]'>LISTEN</div>
+              <div className='w-[90%] h-[40%]  border border-solid border-[#ED6203] flex justify-center items-center text-[#ED6203] font-bold cursor-pointer hover:bg-[#ED6203] hover:text-black max-sm:h-[40%]'>WATCH</div>
             </section>
           </div>
         </section>
         <section className='w-[60%] h-[20%]  flex  justify-around items-center max-sm:flex-col max-sm:w-[90%]'>
           <Link to="/main"  className="w-[100%] h-[40%]">
-            <ButtonHold className="w-full h-full bg-[#F0F812] font-bold hover:bg-yellow-600 duration-300 max-sm:h-[60%]">ENTER SITE</ButtonHold>
+            <ButtonHold className="w-full h-full bg-[#ED6203] font-bold hover:bg-yellow-600 duration-300 max-sm:h-[60%]">ENTER SITE</ButtonHold>
           </Link>
         </section>
       </div>
