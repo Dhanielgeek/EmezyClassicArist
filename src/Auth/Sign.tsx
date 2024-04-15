@@ -4,7 +4,7 @@ import pond from '../assets/pound.png';
 import pro from '../assets/user.png';
 import cart from '../assets/grocery-store.png';
 import notify from '../assets/bell.png'
-import { useState } from "react";
+// import { useState } from "react";
 
 
 const Header =styled.header`
@@ -71,8 +71,8 @@ EMEZY
   </Header>
   
  <section className="w-[100%] h-[110vh]  flex items-center justify-center " style={{backgroundColor:'beige'}}>
- <div className="w-[40%] h-[90%] flex flex-col items-center justify-center border border-soild border[lightgrey]  gap-5 ">
-    <div className="w-[100%] h-[8%] flex justify-start items-center" >
+ <div className="w-[40%] h-[90%] flex flex-col items-center justify-center border border-soild border[lightgrey] gap-5 max-md:w-[80%] ">
+    <div className="w-[100%] h-[8%] flex justify-start items-center px-2 font-bold text-xl" >
       CREATE ACCOUNT
     </div>
 
@@ -87,31 +87,31 @@ EMEZY
 
     <div className="w-[100%] h-[62%] flex justify-between items-center flex-col">
 
-      <div className="w-[100%] h-[22%] flex flex-col justify-center items-start gap-2" >
-        <label > First name</label>
-        <input type="text" required  placeholder="First name" className="w-[100%] h-[60%] border-2" />
+      <div className="w-[100%] h-[22%] flex flex-col justify-center items-start gap-2 px-2" >
+        <label className="font-semibold text-lg"> First name</label>
+        <input type="text" required  placeholder="First name" className="w-[100%] h-[55%] rounded-lg px-2 border-2 bg-transparent font-semibold " />
       </div>
 
-      <div className="w-[100%] h-[22%] flex flex-col justify-center items-start gap-2" >
-        <label > Last name</label>
-        <input type="text" required  placeholder="Last name" className="w-[100%] h-[60%] border-2" />
+      <div className="w-[100%] h-[22%] flex flex-col justify-center items-start gap-2 px-2" >
+        <label className="font-semibold text-lg"> Last name</label>
+        <input type="text" required  placeholder="Last name" className="w-[100%] h-[55%] rounded-lg border-2 bg-transparent px-2 font-semibold" />
       </div>
 
-      <div className="w-[100%] h-[22%] flex flex-col justify-center items-start gap-2" >
-        <label > Email</label>
-        <input type="text" required  placeholder="email" className="w-[100%] h-[60%] border-2" />
+      <div className="w-[100%] h-[22%] flex flex-col justify-center items-start gap-2 px-2" >
+        <label className="font-semibold text-lg"> Email</label>
+        <input type="text" required  placeholder="email" className="w-[100%] h-[55%] rounded-lg  border-2 bg-transparent px-2 font-semibold" />
       </div>
 
-      <div className="w-[100%] h-[22%] flex flex-col justify-center items-start gap-2">
-        <label > Password</label>
+      <div className="w-[100%] h-[22%] flex flex-col justify-center items-start gap-2 px-2">
+        <label className="font-semibold text-lg"> Password</label>
         <input type="text"  required
-         placeholder="password" className="w-[100%] h-[60%] border-2"/>
+         placeholder="password" className="w-[100%] h-[55%] border-2 px-2 bg-transparent rounded-lg"/>
       </div>
 
     </div>
 
     <div className="w-[100%] h-[10%] flex justify-center  items-center" >
-      <button className="w-[20%] h-[80%] bg-[grey] hover:text-white  hover:bg-[#4c4949] cursor-pointer">
+      <button className="w-[60%] h-[70%] bg-[grey] rounded-md hover:text-white  hover:bg-[#4c4949] cursor-pointer">
         CREATE
       </button>
     </div>
