@@ -50,6 +50,10 @@ const Welcome: React.FC = () => {
           </div>
         </section>
         <section className='w-[60%] h-[20%]  flex  justify-around items-center max-sm:flex-col max-sm:w-[90%]'>
+           <section className='w-[100%] h-[50%] bg-black  justify-around hidden items-center flex-col max-md:flex'>
+              <div className='w-[90%] h-[40%] border border-solid border-[#ED6203] flex justify-center items-center text-[#ED6203] font-bold cursor-pointer hover:bg-[#ED6203] hover:text-black max-sm:h-[40%]'>LISTEN</div>
+              <div className='w-[90%] h-[40%]  border border-solid border-[#ED6203] flex justify-center items-center text-[#ED6203] font-bold cursor-pointer hover:bg-[#ED6203] hover:text-black max-sm:h-[40%]'>WATCH</div>
+            </section>
           <Link to="/main"  className="w-[100%] h-[40%]">
             <ButtonHold className="w-full h-full bg-[#ED6203] font-bold hover:bg-yellow-600 duration-300 max-sm:h-[60%]">ENTER SITE</ButtonHold>
           </Link>
