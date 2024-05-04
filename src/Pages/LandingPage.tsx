@@ -9,6 +9,11 @@ import galleryimg3 from '../assets/galleryimg3.png'
 import galleryimg4 from '../assets/galleryimg4.png'
 import galleryimg5 from '../assets/galleryimg5.png'
 import galleryimg6 from '../assets/galleryimg6.png'
+import { AiOutlineSetting } from "react-icons/ai"
+import { BsFillVolumeUpFill } from "react-icons/bs"
+import { BsPlayCircle } from "react-icons/bs";
+import songimg1 from '../assets/songimg1.png'
+
 
 
 const LandingPage = () => {
@@ -65,14 +70,67 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-[100%] h-[300px] bg-[yellow] mt-10 flex flex-col items-center gap-5 ">
+        <div className="w-[100%] h-auto mt-10 flex flex-col items-center gap-8 p-20 ">
           <h1 className="text-5xl font-semibold ">Songs</h1>
-          <div className="w-[100%] h-auto bg-[red] pl-40 flex flex-col gap-3 ">
+          <div className="w-[100%] h-auto flex flex-col gap-3 pl-20 ">
             <p className="text-3xl ">Latest Release</p>
             <p className=" text-3xl text-[#06358D] ">@Emzey</p>
           </div>
-          <div className="">
-
+          <div className="w-[100%] h-auto border border-[black] rounded-xl px-20 py-10 flex flex-col gap-10 ">
+            <div className="w-[60%] h-[40%] flex justify-between items-end ">
+              <div className="w-[10%] h-[100%] rounded-full "><img className="w-full h-full object-fill" src={songimg1} alt="" /></div>
+              <div className="w-[56%] h-[100%] flex flex-col justify-between ">
+                <h1 className="text-2xl font-semibold ">Call Of Love</h1>
+                <div className="w-[100%] h-[80%] flex items-center justify-between ">
+                  <p>Emzey</p>
+                  <div className="w-[85%] h-[100%] flex items-center justify-between ">
+                    <div className="w-[9%] h-[80%] flex items-center "><BsPlayCircle className="w-full h-full cursor-pointer " /></div>
+                    <input type="range" value={0} className="w-[88%] h-3 "/>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[30%] h-[60%] flex  items-center gap-2 ">
+                <p className="text-xl ">3:49</p>
+                <div className="w-[10%] h-[50%] "><BsFillVolumeUpFill className="w-full h-full" /></div>
+                <div className="w-[10%] h-[50%] "><AiOutlineSetting className="w-full h-full" /></div>
+              </div>
+            </div>
+            <div className="w-[60%] h-[40%] flex justify-between items-end ">
+              <div className="w-[10%] h-[100%] rounded-full "><img className="w-full h-full object-fill" src={songimg1} alt="" /></div>
+              <div className="w-[56%] h-[100%] flex flex-col justify-between ">
+                <h1 className="text-2xl font-semibold ">Call Of Love</h1>
+                <div className="w-[100%] h-[80%] flex items-center justify-between ">
+                  <p>Emzey</p>
+                  <div className="w-[85%] h-[100%] flex items-center justify-between ">
+                    <div className="w-[9%] h-[80%] flex items-center "><BsPlayCircle className="w-full h-full cursor-pointer " /></div>
+                    <input type="range" value={0} className="w-[88%] h-3 "/>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[30%] h-[60%] flex  items-center gap-2 ">
+                <p className="text-xl ">3:49</p>
+                <div className="w-[10%] h-[50%] "><BsFillVolumeUpFill className="w-full h-full" /></div>
+                <div className="w-[10%] h-[50%] "><AiOutlineSetting className="w-full h-full" /></div>
+              </div>
+            </div>
+            <div className="w-[60%] h-[40%] flex justify-between items-end ">
+              <div className="w-[10%] h-[100%] rounded-full "><img className="w-full h-full object-fill" src={songimg1} alt="" /></div>
+              <div className="w-[56%] h-[100%] flex flex-col justify-between ">
+                <h1 className="text-2xl font-semibold ">Call Of Love</h1>
+                <div className="w-[100%] h-[80%] flex items-center justify-between ">
+                  <p>Emzey</p>
+                  <div className="w-[85%] h-[100%] flex items-center justify-between ">
+                    <div className="w-[9%] h-[80%] flex items-center "><BsPlayCircle className="w-full h-full cursor-pointer " /></div>
+                    <input type="range" value={0} className="w-[88%] h-3 "/>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[30%] h-[60%] flex  items-center gap-2 ">
+                <p className="text-xl ">3:49</p>
+                <div className="w-[10%] h-[50%] "><BsFillVolumeUpFill className="w-full h-full" /></div>
+                <div className="w-[10%] h-[50%] "><AiOutlineSetting className="w-full h-full" /></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
