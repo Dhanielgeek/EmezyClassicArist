@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
 
-    <div className="w-[100%] h-[100px] flex justify-around items-center ">
+    <div className="w-[100%] h-[100px] bg-[#fff] flex justify-around items-center fixed z-50 ">
       <div className="w-[6%] h-[80%] "><img className='w-full h-full ' src={logo} alt=""/></div>
       <div className="w-[60%] h-[100%] flex justify-around items-center text-xl font-medium ">
         <nav className='cursor-pointer'>Home</nav>

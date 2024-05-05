@@ -1,4 +1,4 @@
-import Header from "../Components/Header"
+
 import heroimg from '../assets/heroimg.svg'
 import line1 from '../assets/line1.png'
 import line2 from '../assets/line2.png'
@@ -13,13 +13,15 @@ import { AiOutlineSetting } from "react-icons/ai"
 import { BsFillVolumeUpFill } from "react-icons/bs"
 import { BsPlayCircle } from "react-icons/bs";
 import songimg1 from '../assets/songimg1.png'
+import contactBackgroundimg from '../assets/contactBackgroundimg.svg'
+import { VscMail } from "react-icons/vsc";
+import { BsPersonFill } from "react-icons/bs";
+import heroimg2 from '../assets/heroimg2.png'
 
 
 
 const LandingPage = () => {
   return (
-    <div className="w-[100%] h-[auto] ">
-      <Header/>
       <div className="w-[100%] h-auto ">
         <div className="w-[100%] h-[620px] bg-black flex justify-between ">
           <div className="w-[50%] h-[100%] "><img className="w-full h-full object-cover" src={heroimg} alt=""/></div>
@@ -31,8 +33,15 @@ const LandingPage = () => {
               <p className="text-xl text-[white] font-semibold ">Feature Album</p>
               <img className="h-5 " src={line1} alt="" />
             </div>
-            <div className="w-[500px] h-[220px] bg-[green] rounded-xl absolute bottom-[-110px] left-[-100px] ">
-
+            <div className="w-[530px] h-[250px] bg-[#fff] rounded-xl absolute bottom-[-110px] left-[-100px] p-7 flex justify-between shadow-lg">
+              <div className="w-[40%] h-[100%] "><img className="w-full h-full object-fill " src={heroimg2} alt=""/></div>
+              <div className="w-[55%] h-[100%] flex flex-col items-end justify-between ">
+                <div className="w-[50%] h-[45%] text-[#1A54BF] "><BsPlayCircle className="w-full h-full cursor-pointer " /></div>
+                <div className="w-[100%] h-[50%] flex flex-col justify-center ">
+                  <p className="text-2xl text-[#CBCBCB] ">Solo Album</p>
+                  <p className="text-2xl font-semibold">The Light Side of the Moon Vol.2</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -133,8 +142,25 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+        <div className="w-[100%] h-auto bg-[#1D1719] flex px-20 relative ">
+          <div className="w-[70%] h-[750px] "><img className="w-full h-full object-fill " src={contactBackgroundimg} alt=""/></div>
+          <div className="w-[700px] h-auto py-5 absolute right-[150px] top-[100px] flex flex-col items-center gap-10 ">
+            <h1 className="text-white text-5xl font-semibold">Contact Me</h1>
+            <div className="w-[100%] h-auto flex flex-col gap-3 items-center ">
+              <div className="w-[80%] h-[60px] rounded-lg flex justify-between  border border-[#CBCBCB] ">
+                <div className="w-[10%] h-[100%] flex items-center justify-center text-[#CBCBCB] "><BsPersonFill className="w-7 h-7" /></div>
+                <input type="text" placeholder="Name" className="w-[90%] h-[100%] pl-5 bg-transparent  "/>
+              </div>
+              <div className="w-[80%] h-[60px] rounded-lg flex justify-between  border border-[#CBCBCB] ">
+                <div className="w-[10%] h-[100%] flex items-center justify-center text-[#CBCBCB] "><VscMail className="w-7 h-7" /></div>
+                <input type="text" placeholder="Email" className="w-[90%] h-[100%] pl-5 bg-transparent  "/>
+              </div>
+            </div>
+            <textarea typeof='text' cols={10} rows={5} placeholder='Message' className="w-[80%] h-[200px] bg-transparent rounded-lg  border border-[#CBCBCB] text-center text-[#fff] p-10 " />
+            <button className="w-[80%] h-[65px] bg-[#06358D] text-[#CBCBCB] text-lg font-semibold rounded-lg ">Send Message</button>
+          </div>
+        </div>
       </div>
-    </div>
   )
 }
 

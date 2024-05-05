@@ -3,6 +3,8 @@ import Login from "./Auth/Login"
 import Sign from "./Auth/Sign"
 import Welcome from "./Pages/Welcome"
 import LandingPage from "./Pages/LandingPage"
+import Main from './Pages/Main'
+
 
 
 const router = createBrowserRouter([
@@ -20,7 +22,13 @@ const router = createBrowserRouter([
   },
   {
     path : '/main',
-    element : <LandingPage/>
+    element : <Main/>,
+    children : [
+      {
+        path : '',
+        element : (<LandingPage/>)
+      }
+    ]
   }
   
 ])
