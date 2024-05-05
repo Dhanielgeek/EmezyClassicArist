@@ -8,6 +8,12 @@ export default {
   ],
   theme: {
     extend: {},
+    screens: {
+      phone: {max: "500px"},
+      tab: {max: "1024px"},
+      desktop: {max: "1280px"},
+      smallPhone: {max: "360px"},
+  },
   },
   plugins: [scrollbarPlugin()],
 }
