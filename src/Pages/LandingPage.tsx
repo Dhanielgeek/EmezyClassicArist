@@ -22,9 +22,9 @@ import heroimg2 from '../assets/heroimg2.png'
 
 const LandingPage = () => {
   return (
-      <div className="w-[100%] h-auto ">
-        <div className="w-[100%] h-[620px] bg-black flex justify-between ">
-          <div className="w-[50%] h-[100%] "><img className="w-full h-full object-cover" src={heroimg} alt=""/></div>
+      <div className="w-[100%] h-auto pt-[100px]">
+        <div className="w-[100%] h-[650px] bg-black flex justify-between ">
+          <div className="w-[50%] h-[100%] "><img className="w-full h-full object-fill" src={heroimg} alt=""/></div>
           <div className="w-[45%] h-[100%] flex flex-col justify-center gap-6 relative ">
             <h1 className="text-4xl text-[white] font-bold ">Emzey</h1>
             <h1 className="text-2xl text-[white] font-semibold ">Without Music <br/><span className="font-light ">Life Would Be a Mistake</span> </h1>
@@ -149,11 +149,11 @@ const LandingPage = () => {
             <div className="w-[100%] h-auto flex flex-col gap-3 items-center ">
               <div className="w-[80%] h-[60px] rounded-lg flex justify-between  border border-[#CBCBCB] ">
                 <div className="w-[10%] h-[100%] flex items-center justify-center text-[#CBCBCB] "><BsPersonFill className="w-7 h-7" /></div>
-                <input type="text" placeholder="Name" className="w-[90%] h-[100%] pl-5 bg-transparent  "/>
+                <input type="text" placeholder="Name" className="w-[90%] h-[100%] pl-5 bg-transparent outline-none text-[#fff] "/>
               </div>
               <div className="w-[80%] h-[60px] rounded-lg flex justify-between  border border-[#CBCBCB] ">
                 <div className="w-[10%] h-[100%] flex items-center justify-center text-[#CBCBCB] "><VscMail className="w-7 h-7" /></div>
-                <input type="text" placeholder="Email" className="w-[90%] h-[100%] pl-5 bg-transparent  "/>
+                <input type="text" placeholder="Email" className="w-[90%] h-[100%] pl-5 bg-transparent outline-none text-[#fff]  "/>
               </div>
             </div>
             <textarea typeof='text' cols={10} rows={5} placeholder='Message' className="w-[80%] h-[200px] bg-transparent rounded-lg  border border-[#CBCBCB] text-center text-[#fff] p-10 " />
