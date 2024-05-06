@@ -79,18 +79,18 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-[100%] h-auto mt-10 flex flex-col items-center gap-8 p-20 ">
-          <h1 className="text-5xl font-semibold ">Songs</h1>
-          <div className="w-[100%] h-auto flex flex-col gap-3 pl-20 ">
-            <p className="text-3xl ">Latest Release</p>
-            <p className=" text-3xl text-[#06358D] ">@Emzey</p>
+        <div className="w-[100%] h-auto mt-10 flex flex-col items-center gap-8 p-20 phone:p-5 phone:gap-5 ">
+          <h1 className="text-5xl font-semibold  phone:text-3xl">Songs</h1>
+          <div className="w-[100%] h-auto flex flex-col gap-3 pl-20 phone:pl-5 ">
+            <p className="text-3xl phone:text-xl ">Latest Release</p>
+            <p className=" text-3xl text-[#06358D] phone:text-xl ">@Emzey</p>
           </div>
-          <div className="w-[100%] h-auto border border-[black] rounded-xl px-20 py-10 flex flex-col gap-10 ">
-            <div className="w-[60%] h-[40%] flex justify-between items-end ">
+          <div className="w-[100%] h-auto border border-[black] rounded-xl px-20 py-10 flex flex-col gap-10 phone:px-5 ">
+            <div className="w-[60%] h-[40%] flex justify-between items-end phone:w-[100%] ">
               <div className="w-[10%] h-[100%] rounded-full "><img className="w-full h-full object-fill" src={songimg1} alt="" /></div>
               <div className="w-[56%] h-[100%] flex flex-col justify-between ">
-                <h1 className="text-2xl font-semibold ">Call Of Love</h1>
-                <div className="w-[100%] h-[80%] flex items-center justify-between ">
+                <h1 className="text-2xl font-semibold phone:text-sm ">Call Of Love</h1>
+                <div className="w-[100%] h-[80%] flex items-center justify-between phone:text-xs ">
                   <p>Emzey</p>
                   <div className="w-[85%] h-[100%] flex items-center justify-between ">
                     <div className="w-[9%] h-[80%] flex items-center "><BsPlayCircle className="w-full h-full cursor-pointer " /></div>
@@ -99,16 +99,16 @@ const LandingPage = () => {
                 </div>
               </div>
               <div className="w-[30%] h-[60%] flex  items-center gap-2 ">
-                <p className="text-xl ">3:49</p>
+                <p className="text-xl phone:text-xs ">3:49</p>
                 <div className="w-[10%] h-[50%] "><BsFillVolumeUpFill className="w-full h-full" /></div>
                 <div className="w-[10%] h-[50%] "><AiOutlineSetting className="w-full h-full" /></div>
               </div>
             </div>
-            <div className="w-[60%] h-[40%] flex justify-between items-end ">
+            <div className="w-[100%] h-[40%] flex justify-between items-end ">
               <div className="w-[10%] h-[100%] rounded-full "><img className="w-full h-full object-fill" src={songimg1} alt="" /></div>
               <div className="w-[56%] h-[100%] flex flex-col justify-between ">
-                <h1 className="text-2xl font-semibold ">Call Of Love</h1>
-                <div className="w-[100%] h-[80%] flex items-center justify-between ">
+                <h1 className="text-2xl font-semibold phone:text-sm ">Call Of Love</h1>
+                <div className="w-[100%] h-[80%] flex items-center justify-between phone:text-xs ">
                   <p>Emzey</p>
                   <div className="w-[85%] h-[100%] flex items-center justify-between ">
                     <div className="w-[9%] h-[80%] flex items-center "><BsPlayCircle className="w-full h-full cursor-pointer " /></div>
@@ -117,16 +117,16 @@ const LandingPage = () => {
                 </div>
               </div>
               <div className="w-[30%] h-[60%] flex  items-center gap-2 ">
-                <p className="text-xl ">3:49</p>
+                <p className="text-xl phone:text-xs ">3:49</p>
                 <div className="w-[10%] h-[50%] "><BsFillVolumeUpFill className="w-full h-full" /></div>
                 <div className="w-[10%] h-[50%] "><AiOutlineSetting className="w-full h-full" /></div>
               </div>
             </div>
-            <div className="w-[60%] h-[40%] flex justify-between items-end ">
+            <div className="w-[100%] h-[40%] flex justify-between items-end ">
               <div className="w-[10%] h-[100%] rounded-full "><img className="w-full h-full object-fill" src={songimg1} alt="" /></div>
               <div className="w-[56%] h-[100%] flex flex-col justify-between ">
-                <h1 className="text-2xl font-semibold ">Call Of Love</h1>
-                <div className="w-[100%] h-[80%] flex items-center justify-between ">
+                <h1 className="text-2xl font-semibold phone:text-sm ">Call Of Love</h1>
+                <div className="w-[100%] h-[80%] flex items-center justify-between phone:text-xs ">
                   <p>Emzey</p>
                   <div className="w-[85%] h-[100%] flex items-center justify-between ">
                     <div className="w-[9%] h-[80%] flex items-center "><BsPlayCircle className="w-full h-full cursor-pointer " /></div>
@@ -135,7 +135,7 @@ const LandingPage = () => {
                 </div>
               </div>
               <div className="w-[30%] h-[60%] flex  items-center gap-2 ">
-                <p className="text-xl ">3:49</p>
+                <p className="text-xl phone:text-xs ">3:49</p>
                 <div className="w-[10%] h-[50%] "><BsFillVolumeUpFill className="w-full h-full" /></div>
                 <div className="w-[10%] h-[50%] "><AiOutlineSetting className="w-full h-full" /></div>
               </div>
