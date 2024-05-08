@@ -19,7 +19,7 @@ export const ScrollToAboutMe: React.FC<Props> = ({ scrollToId }) => {
 
   return (
     <div ref={buttonRef} onClick={handleClick}>
-        <nav className='cursor-pointer'>About me</nav>
+        <nav className='cursor-pointer hover:text-[blue]'>About me</nav>
     </div>
   );
 };
@@ -39,7 +39,7 @@ export const ScrollToHome: React.FC<Props> = ({ scrollToId }) => {
 
   return (
     <div ref={buttonRef} onClick={handleClick}>
-        <nav className='cursor-pointer'>Home</nav>
+        <nav className='cursor-pointer hover:text-[blue]'>Home</nav>
     </div>
   );
 };
@@ -59,7 +59,7 @@ export const ScrollToGallery: React.FC<Props> = ({ scrollToId }) => {
 
   return (
     <div ref={buttonRef} onClick={handleClick}>
-        <nav className='cursor-pointer'>Gallery</nav>
+        <nav className='cursor-pointer hover:text-[blue]'>Gallery</nav>
     </div>
   );
 };
@@ -79,7 +79,7 @@ export const ScrollToSongs: React.FC<Props> = ({ scrollToId }) => {
 
   return (
     <div ref={buttonRef} onClick={handleClick}>
-        <nav className='cursor-pointer'>Songs</nav>
+        <nav className='cursor-pointer hover:text-[blue]'>Songs</nav>
     </div>
   );
 };
@@ -99,7 +99,7 @@ export const ScrollToContact: React.FC<Props> = ({ scrollToId }) => {
 
   return (
     <div ref={buttonRef} onClick={handleClick}>
-        <nav className='cursor-pointer'>Contact</nav>
+        <nav className='cursor-pointer hover:text-[blue]'>Contact</nav>
     </div>
   );
 };
