@@ -13,7 +13,7 @@ import { BsPlayCircle } from "react-icons/bs";
 import contactBackgroundimg from '../assets/contactBackgroundimg.svg';
 import { VscMail } from "react-icons/vsc";
 import { BsPersonFill } from "react-icons/bs";
-import heroimg2 from '../assets/heroimg2.png';
+import heroimg2 from '../assets/ep.jpg';
 import Songs from '../Components/Songs';
 import 'animate.css';
 
@@ -182,6 +182,10 @@ const LandingPage = () => {
       }, []);
 
 
+      const handleMusic = ()=>{
+        window.open("https://ffm.to/love-richesep", "blank")
+      }
+
   return (
       <div className="w-[100%] h-auto pt-[80px] phone:pt-10">
         <div id='home' className="w-[100%] h-[650px] bg-[#1b1618] flex justify-between phone:justify-center phone:h-[500px] ">
@@ -194,13 +198,13 @@ const LandingPage = () => {
               <p className="text-xl text-[white] font-semibold phone:font-medium ">Feature Album</p>
               <img className="h-5  phone:h-2" src={line1} alt="" />
             </div>
-            <div className="w-[530px] h-[250px] bg-[#fff] rounded-xl absolute bottom-[-110px] left-[-100px] phone:left-[0px] p-7 flex justify-between shadow-lg phone:h-[170px] phone:w-[350px] smallPhone:w-[300px] smallPhone:left-[10px] ">
-              <div className="w-[40%] h-[100%] "><img className="w-full h-full object-fill " src={heroimg2} alt=""/></div>
+            <div className="w-[530px] h-[250px] bg-[#fff] rounded-xl absolute bottom-[-110px] left-[-100px] phone:left-[0px] p-7 flex justify-between shadow-lg phone:h-[170px] phone:w-[350px] smallPhone:w-[300px] smallPhone:left-[10px] " onClick={handleMusic}>
+              <div className="w-[40%] h-[100%] "><img className="w-full h-full object-fill rounded-full " src={heroimg2} alt="" /></div>
               <div className="w-[55%] h-[100%] flex flex-col items-end justify-between ">
                 <div className="w-[50%] h-[45%] text-[#1A54BF] phone:h-[30%] "><BsPlayCircle className="w-full h-full cursor-pointer " /></div>
                 <div className="w-[100%] h-[50%] flex flex-col justify-center ">
-                  <p className="text-2xl text-[#CBCBCB] phone:text-lg ">Solo Album</p>
-                  <p className="text-2xl font-semibold phone:text-lg">The Light Side of the Moon Vol.2</p>
+                  <p className="text-2xl text-[#CBCBCB] phone:text-lg ">Ep</p>
+                  <p className="text-2xl font-semibold phone:text-lg">Love 'N' Riches</p>
                 </div>
               </div>
             </div>
