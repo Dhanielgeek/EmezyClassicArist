@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../assets/logo.svg'
+import logo from '../assets/emezy.png'
 import { MdOutlineMenu } from 'react-icons/md'
 import {MdOutlineClear} from 'react-icons/md'
 import {ScrollToAboutMe, ScrollToHome, ScrollToGallery, ScrollToSongs, ScrollToContact} from './ScrollToComponent';
@@ -18,7 +18,7 @@ const HandleToggle = ()=>{
   return (
 
     <div className="w-[100%] h-[80px] bg-[#fff] flex justify-around items-center fixed z-50 phone:h-[70px] phone:justify-between phone:px-10 shadow-sm shadow-[#6f6f6f] ">
-      <div className="w-[8%] h-[80%] animate__animated animate__bounce "><img className='w-full h-full ' src={logo} alt=""/></div>
+      <div className="w-[10%] h-[80%] animate__animated animate__bounce  "><img className='w-full h-full object-cover ' src={logo} alt=""/></div>
       <div className="w-[60%] h-[100%] flex justify-around items-center text-xl font-medium phone:hidden ">
         <ScrollToHome scrollToId="home"/>
         <ScrollToAboutMe scrollToId="about_me" />
