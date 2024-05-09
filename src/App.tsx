@@ -1,7 +1,7 @@
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Login from "./Auth/Login"
 import Sign from "./Auth/Sign"
-import Welcome from "./Pages/Welcome"
+// import Welcome from "./Pages/Welcome"
 import LandingPage from "./Pages/LandingPage"
 import Main from './Pages/Main'
 
@@ -16,12 +16,12 @@ const router = createBrowserRouter([
     path: '/sign',
     element : <Sign/>
   },
+  // {
+  //   path : '',
+  //   element : <Welcome/>
+  // },
   {
-    path : '',
-    element : <Welcome/>
-  },
-  {
-    path : '/main',
+    path : '/',
     element : <Main/>,
     children : [
       {

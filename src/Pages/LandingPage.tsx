@@ -12,7 +12,7 @@ import galleryimg6 from '../assets/galleryimg6.png';
 import { BsPlayCircle } from "react-icons/bs";
 import contactBackgroundimg from '../assets/contactBackgroundimg.svg';
 import { VscMail } from "react-icons/vsc";
-import { BsPersonFill } from "react-icons/bs";;
+import { BsPersonFill } from "react-icons/bs";
 import heroimg2 from '../assets/heroimg2.png';
 import Songs from '../Components/Songs';
 import 'animate.css';
@@ -226,7 +226,7 @@ const LandingPage = () => {
           <div ref={fadeInRight2} className="w-[55%] h-auto flex flex-col gap-5 phone:w-[100%] text-center phone:gap-3 animate__animated ">
             <h1 className="text-5xl font-semibold mb-5 phone:text-3xl phone:mb-0 ">About Me</h1>
             <p className="pr-20 text-xl phone:pr-0 ">
-              Lorem Ipsum is simply dummy text of the printing
+              Lorem Ipsum is simply dummy text of the printing
               and typesetting industry. Lorem Ipsum has been
               the industry's standard dummy text ever since the
               1500s, when an unknown printer took a galley of
