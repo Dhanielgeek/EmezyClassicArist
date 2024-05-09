@@ -182,6 +182,20 @@ const LandingPage = () => {
       }, []);
 
 
+
+      const handleFbLink = ()=>{
+        window.open("https://web.facebook.com/profile.php?id=100086900109152", "blank")
+      }
+      const handleTwitterLink = ()=>{
+        window.open("https://twitter.com/Emzey999", "blank")
+      }
+      const handleYoutubeLink = ()=>{
+        window.open("https://www.youtube.com/@emzeyclassic", "blank")
+      }
+      const handleInstagramLink = ()=>{
+        window.open("https://www.instagram.com/emzey_classics?igsh=OTJ0dDdhZ3Bnb3Ns", "blank")
+      }
+
   return (
       <div className="w-[100%] h-auto pt-[80px] phone:pt-10">
         <div id='home' className="w-[100%] h-[650px] bg-[#1b1618] flex justify-between phone:justify-center phone:h-[500px] ">
@@ -189,7 +203,13 @@ const LandingPage = () => {
           <div ref={fadeInRight} className="w-[45%] h-[100%] flex flex-col justify-center gap-6 relative phone:w-[90%] phone:items-center smallPhone:w-[100%] animate__animated ">
             <h1 className="text-4xl text-[white] font-bold ">Emzey</h1>
             <h1 className="text-2xl text-[white] font-semibold phone:text-center ">Without Music <br/><span className="font-light ">Life Would Be a Mistake</span> </h1>
-            <p className="text-[white] phone:text-center ">TWITTER | FACEBOOK | INSTAGRAM | YOUTUBE</p>
+            <div className='w-auto h-auto flex gap-2'>
+              <p className='text-xl text-[white] phone:text-center phone:text-xl cursor-pointer hover:text-[blue] ' onClick={handleTwitterLink} >Twitter |</p>
+              <p className='text-xl text-[white] phone:text-center phone:text-xl cursor-pointer hover:text-[blue] ' onClick={handleFbLink} >Facebook |</p>
+              <p className='text-xl text-[white] phone:text-center phone:text-xl cursor-pointer hover:text-[blue] ' onClick={handleInstagramLink} >Instagram |</p>
+              <p className='text-xl text-[white] phone:text-center phone:text-xl cursor-pointer hover:text-[blue] ' onClick={handleYoutubeLink} >Youtube</p>
+            </div>
+            {/* <p className="text-[white] phone:text-center ">TWITTER | FACEBOOK | INSTAGRAM | YOUTUBE</p> */}
             <div className="w-[70%] h-[50px] flex items-center gap-3 ">
               <p className="text-xl text-[white] font-semibold phone:font-medium ">Feature Album</p>
               <img className="h-5  phone:h-2" src={line1} alt="" />
