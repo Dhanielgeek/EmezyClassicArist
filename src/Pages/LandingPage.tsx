@@ -185,7 +185,7 @@ const LandingPage = () => {
 
       const handleMusic = ()=>{
         window.open("https://ffm.to/love-richesep", "blank")
-
+      }
 
       const handleFbLink = ()=>{
         window.open("https://web.facebook.com/profile.php?id=100086900109152", "blank")
