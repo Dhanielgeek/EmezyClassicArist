@@ -4,6 +4,7 @@ import Sign from "./Auth/Sign"
 // import Welcome from "./Pages/Welcome"
 import LandingPage from "./Pages/LandingPage"
 import Main from './Pages/Main'
+import Admin from './Admin/Admin'
 
 
 
@@ -16,10 +17,10 @@ const router = createBrowserRouter([
     path: '/sign',
     element : <Sign/>
   },
-  // {
-  //   path : '',
-  //   element : <Welcome/>
-  // },
+  {
+    path: '/admin',
+    element: <Admin/>
+  },
   {
     path : '/',
     element : <Main/>,
@@ -27,8 +28,9 @@ const router = createBrowserRouter([
       {
         path : '',
         element : (<LandingPage/>)
-      }
+      },
     ]
+    
   }
   
 ])
