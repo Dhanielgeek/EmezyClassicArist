@@ -206,7 +206,7 @@ const LandingPage = () => {
         <div id='home' className="w-[100%] h-[650px] bg-[#1b1618] flex justify-between phone:justify-center phone:h-[500px] ">
           <div ref={fadeInLeft} className="w-[50%] h-[100%] phone:hidden animate__animated "><img className="w-full h-full object-fill" src={heroimg} alt=""/></div>
           <div ref={fadeInRight} className="w-[45%] h-[100%] flex flex-col justify-center gap-6 relative phone:w-[90%] phone:items-center smallPhone:w-[100%] animate__animated ">
-            <h1 className="text-4xl text-[white] font-bold ">Emzey</h1>
+            <h1 className="text-4xl text-[white] font-bold ">Emzey Classic</h1>
             <h1 className="text-2xl text-[white] font-semibold phone:text-center ">Without Music <br/><span className="font-light ">Life Would Be a Mistake</span> </h1>
             <div className='w-auto h-auto flex gap-2'>
               <p className='text-xl text-[white] phone:text-center phone:text-xl cursor-pointer hover:text-[blue] ' onClick={handleTwitterLink} >Twitter |</p>

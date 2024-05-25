@@ -28,6 +28,9 @@ body{
 .ant-drawer  .ant-drawer-close{
     color: #FDFDF7;
 }
+.h2name{
+    font-family: "Libre Baskerville", serif;
+}
 
 @media screen and (max-width: 900px){
     .MobileView{
