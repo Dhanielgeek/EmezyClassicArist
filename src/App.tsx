@@ -5,6 +5,8 @@ import Sign from "./Auth/Sign"
 import LandingPage from "./Pages/LandingPage"
 import Main from './Pages/Main'
 import Admin from './Admin/Admin'
+import Overview from './Admin/Overview'
+import AddClothe from './Admin/AddClothe'
 
 
 
@@ -18,8 +20,19 @@ const router = createBrowserRouter([
     element : <Sign/>
   },
   {
-    path: '/admin',
-    element: <Admin/>
+    path: 'admin',
+    element: <Admin/>,
+    children : [
+      {
+        path : 'overview',
+        element : (<Overview/>)
+      },
+      {
+        path : 'add-cloth',
+        element : (<AddClothe/>)
+      },
+    
+    ]
   },
   {
     path : '/',
