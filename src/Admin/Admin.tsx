@@ -6,7 +6,7 @@ import Menu from "./Menu"
 const Admin = () => {
   return (
     <div className="w-screen h-screen bg-green-500 flex">
-      <div className="w-[15%] h-[100%] bg-red-500">
+      <div className="w-[17%] h-[100%]">
         <Menu/>
       </div>
       <div className="w-[100%] h-[100%] bg-purple-500">
